@@ -40,7 +40,7 @@ const user = client.getuser()
         } else {
           fetch("https://api.keikun1215.cf/private/community/verify", {
             method: "POST",
-            header: {
+            headers: {
               "Content-Type": "Application/json"
             },
             body: `{"id":"${d.id}"}`
