@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+}
+#clid {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  font-size: 20px;
+  overflow-y: scroll;
+}
+select {
+  font-family: monospace;
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
