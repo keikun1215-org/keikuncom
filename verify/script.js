@@ -16,7 +16,7 @@ class Client {
     })
   }
 }
-const _0 = ((o)=>{location.href.split("?")[1].split("&").forEach((v)=>{o[v.split("=")[0]]=v.split("=")[1]});return o})({})
+const _0 = ((o)=>{location.href.split("#")[1].split("&").forEach((v)=>{o[v.split("=")[0]]=v.split("=")[1]});return o})({})
 const client = new Client(_0.access_token) 
 const user = client.getuser()
   .then(d=>{
