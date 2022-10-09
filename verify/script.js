@@ -19,6 +19,7 @@ class Client {
     return new Promise((resolve, reject) => {
       fetch("https://discord.com/api/v9/users/@me/guilds", {
         method: "GET",
+        mode: 'cors',
         headers: {
           "Content-Type": "Application/json",
           "Authorization": `Bearer ${this.token}`
