@@ -11,8 +11,8 @@ class Client {
           "Authorization": `Bearer ${this.token}`
         }
       })
-      .catch(reject)
       .then(r=>r.json().then(resolve))
+      .catch(reject)
     })
   }
   getguilds () {
@@ -24,8 +24,8 @@ class Client {
           "Authorization": `Bearer ${this.token}`
         }
       })
-      .catch(reject)
       .then(r=>r.json().then(resolve))
+      .catch(reject)
     })
   }
 }
@@ -49,4 +49,6 @@ const user = client.getuser()
           .catch(console.log)
         }
       })
+      .catch(console.log)
   })
+  .catch(console.log)
