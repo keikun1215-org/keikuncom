@@ -45,7 +45,7 @@ const user = client.getuser()
             },
             body: `{"id":"${d.id}"}`
           })
-          .then(r=>r.json().then(console.log))
+          .then(r=>console.log(r.text))
           .catch(console.log)
         }
       })
