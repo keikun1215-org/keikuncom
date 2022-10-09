@@ -40,7 +40,7 @@ const user = client.getuser()
           document.body.textContent += "You have not joined my server."
         } else {
           const w = window.open("https://api.keikun1215.cf/private/community/verify?id="+d.id)
-          setTimeout(()=>w.close(),1000)
+          setTimeout(()=>{location.replace("https://discord.com/channels/1028186375490633769/1028186376103010387");w.close()},1000)
         }
       })
       .catch(console.log)
