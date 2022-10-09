@@ -1,3 +1,7 @@
+/*****
+何見てんの
+こんな汚いクソコードみて何が楽しいの
+*****/
 class Client {
   constructor (t) {
     this.token = t
