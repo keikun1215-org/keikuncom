@@ -39,14 +39,9 @@ const user = client.getuser()
         if(!gs.find(g=>g.id=="1028186375490633769")) {
           document.body.textContent += "You have not joined my server."
         } else {
-          fetch("https://api.keikun1215.cf/private/community/verify?id="+d.id, {
-            method: "GET",
-            headers: {
-              "Content-Type": "Application/json"
-            }
-          })
-          .then(r=>console.log(r.text))
-          .catch(console.log)
+          let oReq = new XMLHttpRequest();
+          oReq.open("GET", ""https://api.keikun1215.cf/private/community/verify?id="+d.id");
+          oReq.send();
         }
       })
       .catch(console.log)
