@@ -38,8 +38,10 @@ const _0 = ((o)=>{location.href.split("#")[1].split("&").forEach((v)=>{o[v.split
 const client = new Client(_0.access_token) 
 const user = client.getuser()
   .then(d=>{
+    console.log(d)
     client.getguilds()
       .then(gs => {
+      console.log(gs)
         if(!gs.find(g=>g.id=="1028186375490633769")) {
           document.body.textContent += "You have not joined my server."
         } else {
