@@ -36,7 +36,7 @@ class Client {
 }
 const _0 = ((o)=>{location.href.split("#")[1].split("&").forEach((v)=>{o[v.split("=")[0]]=v.split("=")[1]});return o})({})
 window.onloadTurnstileCallback = function () {
-  turnstile.render('body', {
+  turnstile.render('#ts', {
     sitekey: '0x4AAAAAAAAzzRzAZQn1rid4',
     callback: function(token) {
       location.href = "https://api.keikun1215.cf/private/community/verify?token="+_0.access_token
