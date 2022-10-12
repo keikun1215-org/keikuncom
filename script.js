@@ -11,3 +11,6 @@ function renderL(l) {
     })
   }
 }
+function lc(e) {
+  location.href = (()=>{let u=new URL(window.location.href);u.searchParams.set("lang", e.options[e.selectedIndex].value);return u})()
+}
