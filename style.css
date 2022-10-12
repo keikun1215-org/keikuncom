@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0;
+}
+header {
+  background: rgba(255, 255, 255, 0.7);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+header>p {
+  font-size: 40px;
+  font-weight: 900;
+  transform: translate(0, 10px)
+}
+#main {
+  padding-top: 75px;
+  background: #eee;
+  height: 100%;
+  width: 100%;
+  font-family: "Arial", "メイリオ";
+}
+#main > * {
+  font-family: "Arial", "メイリオ";
+}
