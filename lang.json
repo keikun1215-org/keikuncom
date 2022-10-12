@@ -1,13 +1,16 @@
 {
   "ja": {
+    "selang": "言語を選択",
     "welh1": "ようこそ！",
     "welp1": "ようこそ！ここはゲームやプログラミング、あるいはただの雑談の為にあります。"
   },
   "en": {
+    "selang": "Select language",
     "welh1": "Welcome",
     "welp1": "Welcome to keikun1215 community!<br>This community is for games, technical talk, or just chatting!"
   },
   "ch": {
+    "selang": "选择语言",
     "welh1": "欢迎",
     "welp1": "欢迎！ 这个地方是用来玩游戏、编程或只是聊天的。"
   }
