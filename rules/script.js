@@ -44,8 +44,8 @@ Punishment is at the discretion of the administrator.`,
 惩罚是由管理员决定的。`
 }
 const ri = {
-  ja: `理解したなら<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds">ここを押してください</a>。`,
-  en: `If understand, <a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds">click here</a>.`,
+  ja: `理解したなら<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds%20guilds%20guilds.join">ここを押してください</a>。`,
+  en: `If understand, <a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds.join">click here</a>.`,
   ch: `如果你明白，<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds">请点击这里。</a>`
 }
 let i = 0;
