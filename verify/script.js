@@ -39,7 +39,7 @@ window.onloadTurnstileCallback = function () {
   turnstile.render('#ts', {
     sitekey: '0x4AAAAAAAAzzRzAZQn1rid4',
     callback: function(token) {
-      location.href = "https://api.keikun1215.cf/private/community/verify?token="+_0.access_token
+      location.href = "http://api.keikun1215.cf/private/community/verify?token="+_0.access_token
     },
   });
 };
