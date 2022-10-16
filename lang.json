@@ -2,16 +2,22 @@
   "ja": {
     "selang": "言語を選択",
     "welh1": "ようこそ！",
-    "welp1": "ようこそ！ここはゲームやプログラミング、あるいはただの雑談の為にあります。"
+    "welp1": "ようこそ！ここはゲームやプログラミング、あるいはただの雑談の為にあります。",
+    "banned": "あなたはBANされています。",
+    "banr": "BANされたことに異議がある場合は、ID、ユーザー名、BANされるべきではなかったという証拠を添えて、 <b>contact@keikun1215.cf</b> までメールを送ってください。"
   },
   "en": {
     "selang": "Select language",
     "welh1": "Welcome",
-    "welp1": "Welcome to keikun1215 community!<br>This community is for games, technical talk, or just chatting!"
+    "welp1": "Welcome to keikun1215 community!<br>This community is for games, technical talk, or just chatting!",
+    "banned": "You has been banned.",
+    "banr": "If you object to your ban, please send an email to <b>contact@keikun1215.cf</b> with your ID, user name, and proof that you should not have been banned."
   },
   "ch": {
     "selang": "选择语言",
     "welh1": "欢迎",
-    "welp1": "欢迎！ 这个地方是用来玩游戏、编程或只是聊天的。"
+    "welp1": "欢迎！ 这个地方是用来玩游戏、编程或只是聊天的。",
+    "banned": "你已经被禁赛了",
+    "banr": "如果你反对你的禁令，请发送电子邮件到 <b>contact@keikun1215.cf</b>，并附上你的ID、用户名和证明你不应该被禁止的证据。"
   }
 }
