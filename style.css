@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  background: #eee;
 }
 * {
   margin: 0;
@@ -19,11 +20,17 @@ header>p {
 }
 #main {
   padding-top: 75px;
-  background: #eee;
   height: 100%;
-  width: 100%;
+  width: 80%;
   font-family: "Arial", "メイリオ";
+  margin-left: auto;
+  margin-right: auto;
 }
 #main > * {
   font-family: "Arial", "メイリオ";
+}
+#las {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  outline: none;
 }
