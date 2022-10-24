@@ -1,9 +1,17 @@
+ScrollReveal().reveal('#main > h1');
 (async()=>{
   const langc = (new URL(window.location.href)).searchParams.get('lang')||"en"
   const langr = await fetch("./lang.json")
   const lang = await langr.json()
   renderL(lang[langc])
 })()
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    $("#headeri").fadeIn()
+  } else {
+    $("#headeri").fadeOut()
+  }
+});
 function renderL(l) {
   for(let [t, v] of Object.entries(l)) {
     [...document.getElementsByClassName(t)].forEach(e=>{
