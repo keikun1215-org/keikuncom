@@ -7,30 +7,123 @@ html, body {
   margin: 0;
 }
 header {
-  background: rgba(255, 255, 255, 0.7);
+  color: #fff;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background: linear-gradient(rgba(0,0,0,0) 80%, #ccc);
+  z-index: 2;
+}
+footer {
+  text-align: center;
+}
+.tit {
+  animation: slide 1s ease 0s forwards;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  -webkit-transform: translate(-50%, -35%);
+  -ms-transform: translate(-50%, -35%);
+  opacity: 0;
+}
+.tit-k1 {
+  font-family: "Serif";
+  font-size: 60px;
+  font-weight: 900;
+}
+.tit-txt {
+  font-family: "Arial", "メイリオ";
+  text-align: center;
+}
+#cov {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  background: url("https://cdn.keikun1215.cf/assets/real/starsky.webp");
+  z-index: 1;
+  background-size: 200% 200%;
+  animation: bgmove 60s ease 0s alternate infinite;
+}
+#ft {
+  height: 1px;
+  width: 80%;
+  background-color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#selang {
+  border: none;
+  background: none;
+  outline: none;
+  color: #000;
+  font-size: 15px;
+  transform: translate(0, 22.5px);
+}
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   height: 70px;
   width: 100%;
-  position: fixed;
+  background: #ccc;
   display: flex;
 }
-header>p {
-  font-size: 40px;
-  font-weight: 900;
-  transform: translate(0, 10px)
+#headeri {
+  display: flex;
 }
 #main {
-  padding-top: 75px;
-  height: 100%;
+  height: calc(100% - 370px);
   width: 80%;
   font-family: "Arial", "メイリオ";
   margin-left: auto;
   margin-right: auto;
 }
-#main > * {
+#main > h1 {
+  text-align: center;
+}
+.hei-kt {
+  font-family: serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+#main > *, #header > *, #main, #header {
   font-family: "Arial", "メイリオ";
 }
-#las {
-  background: rgba(255, 255, 255, 0.7);
-  color: #000;
-  outline: none;
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -35%);
+    -webkit-transform: translate(-50%, -35%);
+    -ms-transform: translate(-50%, -35%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translatex(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+@keyframes bgmove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
