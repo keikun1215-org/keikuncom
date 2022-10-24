@@ -6,23 +6,42 @@
   <meta name="viewport" content="width=device-width">
   <title> Home - keikun1215 </title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
+  <div id="cov"></div>
   <header>
-    <img style="height: 100%; width: auto;" src="https://cdn.keikun1215.cf/assets/keikuncom/keikunlogo.webp" />
-    <p>keikun1215</p>
-    <select onchange="lc(this)" name="pets" id="las">
-      <option class="selang" value="">Select language</option>
-      <option value="en">English</option>
-      <option value="ch">中文</option>
-      <option value="ja">日本語</option>
-    </select>
+    <div class="tit">
+      <p class="tit-k1">keikun1215</p>
+      <p class="tit-txt">A discord community</p>
+    </div>
   </header>
+  <div id="header">
+    <div style="display:none" id="headeri">
+      <img src="https://cdn.keikun1215.cf/assets/keikuncom/keikunlogo.webp" style="height: 70px; width: auto;" />
+      <div class="hei-kt">
+        <p>keikun1215</p>
+        <p style="font-family: 'Arial','めいりお';font-size:15px;font-weight:100;">A discord community</p>
+      </div>
+    </div>
+    <div>
+      <select id="selang" onchange="lc(this)">
+        <option class="selang" value="">Select language</option>
+        <option value="en">English</option>
+        <option value="ch">中文</option>
+        <option value="ja">日本語</option>
+      </select>
+    </div>
+  </div>
   <div id="main">
     <h1 class="welh1">Welcome</h1>
-    <p class="welp1">Welcome to keikun1215 community!<br>
-    This community is for games, technical talk, or just chatting!</p>
+    <p class="welp1">Welcome to keikun1215 community!<br>This community is for games, technical talk, or just chatting!</p>
+    <footer> 
+      <div id="ft"></div>
+      <a href="./pp.html">Privacy policy</a>・<a href="./tos.html">Terms</a>
+    </footer>
   </div>
   <script src="script.js"></script>
 </body>
