@@ -1,5 +1,4 @@
-const rule = {
-  ja: `- ルール - 
+const rule={ja:`- ルール - 
 > チャットへの書き込み
 他人が不快になる言葉、ファイル、リンクの送信を禁止します。
 端末に悪影響を与える(クラッシュGIFなど)言葉、ファイル、リンクの送信を禁止します。
@@ -12,8 +11,7 @@ const rule = {
 他人への無意味なメンション、メンションの連投を禁止します。
 
 その他のサーバーの秩序を乱す行為を禁止します。
-処罰は管理者の判断です。`,
-  en: `- Rules -
+処罰は管理者の判断です。`,en:`- Rules -
 > Text & Files
 Prohibit the transmission of words, files, or links that are offensive to others.
 Prohibit the transmission of words, files, or links that may adversely affect the terminal (e.g., crashed GIFs).
@@ -27,8 +25,7 @@ Please send sexual images only to R18 channels.
 Pointless mention or mention repeatedly posted to others is prohibited.
 
 Other acts that disturb the order of the server are prohibited.
-Punishment is at the discretion of the administrator.`,
-  ch: `- 规则-
+Punishment is at the discretion of the administrator.`,ch:`- 规则-
 > 聊天帖子
 严禁发送对他人有攻击性的文字、文件或链接。
 禁止传输对终端有负面影响的文字、文件或链接。（例如，崩溃的GIF）
@@ -41,32 +38,10 @@ Punishment is at the discretion of the administrator.`,
 禁止无意义地提及他人和连续提及。
 
 禁止其他扰乱服务器秩序的行为。
-惩罚是由管理员决定的。`
-}
-const ri = {
-  ja: `理解したなら<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds%20guilds%20guilds.join">ここを押してください</a>。`,
-  en: `If understand, <a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds.join">click here</a>.`,
-  ch: `如果你明白，<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds">请点击这里。</a>`
-}
-let i = 0;
-const si0 = setInterval(sih0, 100)
-function sih0(){
-  let s = "Select Language: "
-  clid.textContent += s[i]
-  if(i==s.length-1) {
-    clearInterval(si0)
-    clid.innerHTML += `
+惩罚是由管理员决定的。`},ri={ja:`理解したなら<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds%20guilds%20guilds.join">ここを押してください</a>。`,en:'If understand, <a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds%20guilds.join">click here</a>.',ch:`如果你明白，<a href="https://discord.com/api/oauth2/authorize?client_id=1028549464287354880&redirect_uri=https%3A%2F%2Fcommunity.keikun1215.cf%2Fverify&response_type=token&scope=identify%20guilds">请点击这里。</a>`};let i=0;const si0=setInterval(sih0,100);function sih0(){let e="Select Language: ";clid.textContent+=e[i],i==e.length-1&&(clearInterval(si0),clid.innerHTML+=`
 <select onchange="lonc(this)" id="lang">
   <option value="">CLICK HERE</option>
   <option value="ja">日本語</option>
   <option value="en">English</option>
   <option value="ch">中文</option>
-</select>`
-  }
-  i++
-}
-function lonc (e) {
-  const l = e.options[e.selectedIndex].value
-  clid.innerHTML += "<br>" + rule[l].replace(/\n/g,"<br>")
-  clid.innerHTML += "<br>" + ri[l]
-}
+</select>`),i++}function lonc(e){let t=e.options[e.selectedIndex].value;clid.innerHTML+="<br>"+rule[t].replace(/\n/g,"<br>"),clid.innerHTML+="<br>"+ri[t]}
