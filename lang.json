@@ -6,6 +6,8 @@
     "tos": "利用規約",
     "rl-ck": "チャットへの書き込み",
     "rl-ck-p": "他人が不快になる言葉、ファイル、リンクの送信を禁止します。<br>端末に悪影響を与える(クラッシュGIFなど)言葉、ファイル、リンクの送信を禁止します。<br>ウィルスやマルウェアなどの入った、もしくはその可能性があるファイル、アーカイブの送信を禁止します。<br>(入っていない事がわかっていてもDM間でのやりとりをしてください。)<br>政治的発言を禁止します。<br>違法性のあるコンテンツの送信を禁止します。<br>性的な画像はR18チャンネルのみに送ってください。",
+    "rl-af": "荒らしの規制",
+    "rl-af-p": "他人への無意味なメンション、メンションの連投を禁止します。",
     "pream": "違反時の処罰は完全にこのサーバーの管理者によって決定されます。<br>ここに記されていない物でも、このサーバーの秩序を乱す行為は全て処罰の対象となります。"
   },
   "en": {
@@ -15,6 +17,8 @@
     "tos": "Terms of service",
     "rl-ck": "Text & Files",
     "rl-ck-p": "Prohibit the transmission of words, files, or links that are offensive to others.<br$Prohibit the transmission of words, files, or links that may adversely affect the terminal (e.g., crashed GIFs).<br>You are prohibited from sending files or archives that contain or may contain viruses or malware.<br>(Please communicate between DMs even if you know they are not contained.)<br>Political statements are prohibited.<br>Transmission of illegal content is prohibited.<br>Please send sexual images only to R18 channels.",
+    "rl-af": "Troll Must Get Ban",
+    "rl-af-p": "Pointless mention or mention repeatedly posted to others is prohibited.",
     "pream": "Punishments for violations will be determined entirely by the administrators of this server.<br>Any activity that disrupts the order of this server, even if it is not listed here, will be subject to punishment."
   },
   "ch": {
@@ -24,6 +28,8 @@
     "tos": "服务条款",
     "rl-ck": "聊天帖子",
     "rl-ck-p": "严禁发送对他人有攻击性的文字、文件或链接。<br>禁止传输对终端有负面影响的文字、文件或链接。（例如，崩溃的GIF）<br>禁止传输含有或可能含有病毒或恶意软件的文件或档案。<br>(即使你知道它们不在其中，也请在DM之间交换。)<br>禁止发表政治声明。<br>禁止传输非法内容。<br>性爱图片只应发送到R18频道。",
+    "rl-af": "对拖网的限制",
+    "rl-af-p": "禁止无意义地提及他人和连续提及。",
     "pream": "对违规行为的处罚完全由本服务器的管理员决定。<br>任何破坏本服务器秩序的行为，即使没有在这里列出，也将受到惩罚。"
   }
 }
